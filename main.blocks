@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="HH{^PlyXFO)=n`%=RU+)">Value</variable></variables><block type="pxt-on-start" id="v;85qqj0m?oSd}aD|;FC" x="0" y="0"></block><block type="device_forever" id="Tk/V1f+vN:tmFPJ1hvoy" x="205" y="0"><statement name="HANDLER"><block type="variables_set" id="dj`:O~oOqn:xRt#::::B"><field name="VAR" id="HH{^PlyXFO)=n`%=RU+)">Value</field><value name="VALUE"><shadow type="math_number" id="pUY%ChNDQ0e/x.:%(~24"><field name="NUM">0</field></shadow><block type="device_get_analog_pin" id="^!a{#hZNEp!C%z;4CSh~"><value name="name"><shadow type="analog_read_write_pin_shadow" id="+,OEA;xOo7r2^^)P+d`^"><field name="pin">AnalogReadWritePin.P1</field></shadow></value></block></value><next><block type="controls_if" id="]{,p@AKSJNyP?}DfeWuj"><mutation elseif="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="vp2+]Uy$q?6DpFi[}JVJ"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="7~ojg8V%jTuP)vjYfAMu"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="ss*j%32bTOUH]R0ed1Y2" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow><block type="variables_get" id="P[*4uI3Axl{ljN}?nQ!g"><field name="VAR" id="HH{^PlyXFO)=n`%=RU+)">Value</field></block></value><value name="B"><shadow type="math_number" id="V[.i4O!.dA,~Uez:w{dM"><field name="NUM">500</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="M-{:L+b8y)4%I+Hi7l{;"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement><value name="IF1"><shadow type="logic_boolean" id="yDz#[+Oi6$a!i7jttLP~"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="VCGswTvsxNoqRK$.dY.J"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="(Xwp]p|cY8Tq}Y`wmwDq" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow><block type="variables_get" id="cc|U7*#U*bJxvE=3P-3]"><field name="VAR" id="HH{^PlyXFO)=n`%=RU+)">Value</field></block></value><value name="B"><shadow type="math_number" id="pa*q,wCEd#.#nd1Ma0uL"><field name="NUM">500</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="Tq-|e*oD8-{xEc4;9x4u"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></next></block></statement></block></xml>
